@@ -1,7 +1,5 @@
 {
-  "name": "buta_bot_for_nodejs",
-  "version": "1.0.0",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,13 +8,14 @@
     "url": "git+https://github.com/ymzk-jp/buta_bot_for_nodejs.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "ymzk-jp",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ymzk-jp/buta_bot_for_nodejs/issues"
   },
   "homepage": "https://github.com/ymzk-jp/buta_bot_for_nodejs#readme",
   "dependencies": {
-    "discord": "^0.8.2"
+    "discord.js": "^11.4.2",
+    "dotenv": "^6.2.0"
   }
 }
