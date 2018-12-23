@@ -23,11 +23,11 @@ client.on('message', message => {
 });
 
 const msg=(message)=>{
-    if (message.author.id === '428019346204524545') {
+    if (message.author.id === USER_ID_ymzk) {
         message.channel.send("text");
     }
 }
 
 const sayText=()=>{
-    client.channels.get('525656657749868556').send('My Message');
+    client.channels.get('CHANNEL_ID__my_bot_sandboxy').send('My Message');
 }
